@@ -1,0 +1,70 @@
+body {
+font-family: Roboto Slab,Helvetica,Arial,sans-serif;
+text-rendering: optimizeLegibility;
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+-ms-overflow-style: scrollbar;
+-webkit-tap-highlight-color: transparent;
+}
+body {
+--code-font-family: Menlo,Monaco,Consolas,monospace;
+--font-size: 0.6 rem;
+--font-weight: 400;
+--font-weight-bold: 700;
+--font-weight-heading: 400;
+--text-muted: #888;
+--gray-bg: rgba(0,0,0,0.025);
+--gray-text: #666;
+--menu-text: #bbb;
+--body-color: #333;
+--body-bg: #fff;
+--border-color: #ebebeb;
+}
+
+.right {
+  text-align: right;
+  margin-right: 1em;
+}
+
+.left {
+  text-align: left;
+  margin-left: 1em;
+}
+
+.led-red {
+  margin: 0 auto;
+  width: 14px;
+  height: 14px;
+  background-color: #F00;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 12px;
+  -webkit-animation: blinkRed 0.5s infinite;
+  -moz-animation: blinkRed 0.5s infinite;
+  -ms-animation: blinkRed 0.5s infinite;
+  -o-animation: blinkRed 0.5s infinite;
+  animation: blinkRed 0.5s infinite;
+}
+
+.led-green {
+  margin: 0 auto;
+  width: 14px;
+  height: 14px;
+  background-color: #ABFF00;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #89FF00 0 2px 12px;
+}
+
+.led-blue {
+  margin: 0 auto;
+  width: 14px;
+  height: 14px;
+  background-color: #24E0FF;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #006 0 -1px 9px, #3F8CFF 0 2px 14px;
+}
+
+#map {
+    height: 100%;
+}
+#map-canvas { height: 400px; margin: 0px; padding: 0px }
+

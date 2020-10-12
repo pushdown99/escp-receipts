@@ -1,1 +1,1 @@
-# escp-receipts
+# escp
